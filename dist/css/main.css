@@ -40,14 +40,14 @@
   .menu-nav {
     margin: 0;
     padding: 0;
-    background: #2e2c2c;
+    background: #404040;
     list-style: none;
     transform: translate3d(0, -100%, 0);
     transition: all 0.5s ease-out; }
     .menu-nav.show {
       transform: translate3d(0, 0, 0); }
   .menu-branding {
-    background: #3b3939;
+    background: #4d4d4d;
     transform: translate3d(0, 100%, 0);
     transition: all 0.5s ease-out; }
     .menu-branding.show {
@@ -55,7 +55,7 @@
     .menu-branding .portrait {
       width: 250px;
       height: 250px;
-      background: url("../img/portrait.jpg");
+      background: url("../img/ja.jpg");
       border-radius: 50%;
       border: solid 3px #000000; }
   .menu .nav-item {
@@ -94,7 +94,7 @@
   box-sizing: border-box; }
 
 body {
-  background: #3b3939;
+  background: #4d4d4d;
   color: #fff;
   height: 100%;
   margin: 0;
@@ -112,7 +112,7 @@ body {
       width: 100%;
       height: 100%;
       z-index: -1;
-      background: rgba(59, 57, 57, 0.9); }
+      background: rgba(77, 77, 77, 0.9); }
 
 h1,
 h2,
@@ -128,11 +128,13 @@ h3 {
   h3.sm-heading {
     margin-bottom: 2rem;
     padding: 0.2rem 1rem;
-    background: rgba(64, 62, 62, 0.5); }
+    background: rgba(82, 82, 82, 0.5); }
 
 a {
   color: #fff;
-  text-decoration: none; }
+  text-decoration: none;
+  color: white;
+  text-shadow: 2px 2px 5px black; }
 
 header {
   position: fixed;
@@ -180,9 +182,10 @@ main {
   .about-info .job-3 {
     grid-area: job3; }
   .about-info .job {
-    background: #484646;
+    background: #5a5a5a;
     padding: 0.5rem;
-    border-bottom: #000000 5px solid; }
+    border-bottom: #000000 5px solid;
+    grid-template-columns: repeat(3, 1fr); }
 
 .projects {
   display: grid;
@@ -229,13 +232,13 @@ main {
   color: #fff; }
 
 .btn-light {
-  background: #bbb8b8;
+  background: #cdcdcd;
   color: #333; }
 
 #main-footer {
   text-align: center;
   padding: 1rem;
-  background: #212020;
+  background: #343434;
   color: #fff;
   height: 60px; }
 
@@ -270,7 +273,7 @@ main {
     height: 25vh;
     transform: translate3d(100%, 0, 0); }
     .menu-branding .portrait {
-      background: url("../img/portrait_small.jpg");
+      background: url("../img/ja.jpg");
       width: 150px;
       height: 150px; }
   .about-info {

@@ -36,6 +36,8 @@ h3 {
 a {
   color: #fff;
   text-decoration: none;
+  color: white;
+  text-shadow: 2px 2px 5px black;
 }
 
 header {
@@ -114,6 +116,7 @@ main {
     background: lighten($primary-color, 5);
     padding: 0.5rem;
     border-bottom: $secondary-color 5px solid;
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 
